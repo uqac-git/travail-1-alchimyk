@@ -11,7 +11,7 @@ RUNNING INSTRUCTIONS:
 
 - Clone the Git repo with "git clone <theRepoURL>
 - Install all the dependancies by typing the following command: "pip install -r requirements.txt"
-- Enter the command: "export FLASK_APP=hello.py"
+- UNIX-BASED OS: Enter the command: "export FLASK_APP=hello.py"  WINDOWS USERS: the command is "$env:FLASK_APP="hello.py"" 
 - Finally, enter "flask run"
 
 The content will be available at http://localhost:5000 via your favorite internet browser
